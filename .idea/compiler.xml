@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micro-admin" />
+        <module name="micro-config-server" />
+        <module name="micro-order" />
+        <module name="micro-service-api" />
+        <module name="micro-turbine" />
+        <module name="micro-web" />
+        <module name="micro-zuul" />
+        <module name="springcloud-dashboard" />
+        <module name="springcloud-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="micro-admin" target="1.7" />
+      <module name="micro-config-server" target="1.7" />
+      <module name="micro-order" target="1.7" />
+      <module name="micro-service-api" target="1.7" />
+      <module name="micro-turbine" target="1.7" />
+      <module name="micro-web" target="1.7" />
+      <module name="micro-zuul" target="1.7" />
+      <module name="springcloud-dashboard" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
